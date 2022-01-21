@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
 int t;cin>>t;
-while(t--){
+jwhile(t--){
 	string s;cin>>s;
 	int n= s.size();
 	bool flag = 0;
