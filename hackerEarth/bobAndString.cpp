@@ -19,17 +19,6 @@ int main(){
 		{
 			hshb[b[i]-'a']++;
 		}
-		// for (int i = 0; i < 26; ++i)
-		// {
-		// 	cout<<hsha[i];
-		// }
-		// cout<<endl;
-		// for (int i = 0; i < 26; ++i)
-		// {
-		// 	cout<<hshb[i];
-		// }
-		// cout<<endl;
-		// cout<<endl;
 		for (int i = 0; i < 26; ++i)
 		{
 			count += abs(hsha[i]-hshb[i]);
